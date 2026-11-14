@@ -223,7 +223,7 @@ const CAT_LABEL = { hotdog: 'Хот-дог', burger: 'Бургер', snack: 'З�
 
 // ===== TELEGRAM =====
 const tg = window.Telegram && window.Telegram.WebApp;
-const inTelegram = !!(tg && tg.initData);   // initData не пустой только внутри Telegram
+const inTelegram = !!(tg && tg.platform && tg.platform !== 'unknown');   // внутри Telegram платформа известна (initData пуст при открытии кнопкой клавиатуры)
 if (tg) { tg.ready(); tg.expand(); }
 
 // ===== СОСТОЯНИЕ =====
