@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- фон -->
+  <rect width="200" height="200" fill="#FFE3C2"/>
+  <circle cx="100" cy="105" r="78" fill="#FFC98F"/>
+
+  <!-- палочки картошки -->
+  <g stroke="#E07A10" stroke-width="2">
+    <rect x="62"  y="44" width="14" height="80" rx="3" fill="#FFB52E" transform="rotate(-12 69 84)"/>
+    <rect x="80"  y="32" width="14" height="90" rx="3" fill="#FFC23D" transform="rotate(-5 87 77)"/>
+    <rect x="96"  y="28" width="14" height="94" rx="3" fill="#FFB52E"/>
+    <rect x="112" y="34" width="14" height="88" rx="3" fill="#FFC23D" transform="rotate(6 119 78)"/>
+    <rect x="127" y="46" width="14" height="78" rx="3" fill="#FFB52E" transform="rotate(13 134 85)"/>
+    <rect x="88"  y="50" width="13" height="72" rx="3" fill="#FFA41F" transform="rotate(3 94 86)"/>
+    <rect x="105" y="52" width="13" height="70" rx="3" fill="#FFA41F" transform="rotate(-4 111 87)"/>
+  </g>
+
+  <!-- красная коробка -->
+  <path d="M52 100 H148 L136 172 H64 Z" fill="#E63322" stroke="#B3200F" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M52 100 Q100 122 148 100" fill="#FF5A3C" stroke="#B3200F" stroke-width="3" stroke-linejoin="round"/>
+  <!-- полоска на коробке -->
+  <path d="M61 138 Q100 150 139 138 L137 150 Q100 162 63 150 Z" fill="#FFB52E"/>
+</svg>
